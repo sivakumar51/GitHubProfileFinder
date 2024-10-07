@@ -1,0 +1,308 @@
+
+
+.finder-container{
+    width: 90%;
+    margin-left: 3%;
+    background-color: #161b22; 
+}
+
+
+.finder-container h1{
+    color: #fff;
+    padding-top: 25px;
+}
+
+
+.finder-searcher{
+    background-color: #161b22; 
+    padding-left: 35%;
+    padding-top: 15px;
+    height: 50px;
+}
+
+
+.finder-searcher .input{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.submit-button{
+margin-left: 15%;
+width: 100px;
+height: 20px;
+height: 30px;
+border-radius: 5px;
+}
+
+
+.names-repo{
+display: flex;
+height: auto;
+}
+
+.finder-repo ul{
+list-style-type: none;
+
+}
+.finder-name{
+ color: aliceblue;
+ padding-left: 5%;
+ padding-top:50px;
+}
+.finder-repo {
+    text-align: start;
+    padding-top: 50px;
+    padding-left: 5%;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* @media (max-width: 769px) {
+    .finder-container h1{
+        padding-left: 3%;
+        font-size: 20px;
+    }
+    .finder-searcher{
+        background-color: #161b22; 
+        padding-left: 150px;
+        padding-top: 15px;
+        height: 50px;
+    }
+    .finder-searcher .input{
+    height: 30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.finder-searcher{
+    height: 10px;
+}
+.githup-finder{
+    padding: 3%;
+    display: block;
+    margin-top: 5%;
+    width: 80%;
+}
+.finder-name{
+    width: 30%;
+}
+.input{
+    height:100px;
+}
+.submit-button{
+    height: 20px;
+}
+.finder-repo{
+    padding-top: 2%;
+}
+}
+@media (max-width: 426px) {
+    .finder-container h1{
+        padding: 3%;
+        font-size: 20px;
+    }
+    .finder-searcher{
+        background-color: #161b22; 
+        padding-left: 50px;
+        padding-top: 5px;
+        height: 50px;
+    }
+    .finder-searcher .input{
+    height: 30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+.finder-searcher{
+    height: 30px;
+}
+.githup-finder{
+    padding: 3%;
+    display: block;
+    margin-top: 15%;
+    width: 80%;
+}
+.finder-name{
+    width: 100%;
+}
+.input{
+    height:100px;
+}
+.submit-button{
+    height: 30px;
+}
+.finder-repo{
+    padding: 0%;
+}
+}
+@media (max-width: 376px) {
+    .finder-container h1{
+        padding: 3%;
+        font-size: 20px;
+    }
+    .finder-searcher{
+        background-color: #161b22; 
+        padding-left: 50px;
+        padding-top: 15px;
+        height: 50px;
+    }
+    .finder-searcher .input{
+    height: 30px;
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+.finder-searcher{
+    height: 10px;
+}
+.githup-finder{
+    padding: 3%;
+    display: block;
+    margin-top: 25%;
+    width: 80%;
+}
+.finder-name{
+    width: 100%;
+}
+.input{
+    height:100px;
+}
+.submit-button{
+    height: 25px;
+    width: 85px;
+}
+.finder-repo{
+    padding: 0%;
+}
+}*/
+@media (max-width: 769px) {
+    .finder-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .finder-container h1{ 
+    font-size: medium;
+    }
+    .finder-searcher{
+        padding-left: 17%;
+        padding-top: 15px;
+        height: 20px;
+    }
+    .finder-searcher .input{
+        height: 30px;
+        width: 450px;
+        border-radius: 10px;
+    }
+    
+.submit-button{
+    margin-left: 30%;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    }
+    .names-repo{
+        display:contents;
+        height: auto;
+        }
+        .finder-repo{
+            padding-top: 5px;
+        }
+}
+@media (max-width: 426px) {
+    .finder-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .finder-container h1{ 
+    font-size: medium;
+    }
+    .finder-searcher{
+        padding-left: 17%;
+        padding-top: 15px;
+        height: 20px;
+    }
+    .finder-searcher .input{
+        height: 30px;
+        width: 250px;
+        border-radius: 10px;
+    }
+    
+.submit-button{
+    margin-left: 30%;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    }
+    .names-repo{
+        display:contents;
+        height: auto;
+        }
+        .finder-repo{
+            padding-top: 5px;
+        }
+} 
+@media (max-width: 376px) {
+    .finder-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .finder-container h1{ 
+    font-size: medium;
+    }
+    .finder-searcher{
+        padding-left: 17%;
+        padding-top: 15px;
+        height: 20px;
+    }
+    .finder-searcher .input{
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+.submit-button{
+    margin-left: 23%;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    }
+    .names-repo{
+        display:contents;
+        height: auto;
+        }
+        .finder-repo{
+            padding-top: 5px;
+        }
+} 
+@media (max-width: 356px) {
+    .finder-container{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .finder-container h1{ 
+    font-size: medium;
+    }
+    .finder-searcher{
+        padding-left: 17%;
+        padding-top: 15px;
+        height: 20px;
+    }
+    .finder-searcher .input{
+        height: 30px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+.submit-button{
+    margin-left: 23%;
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    }
+    .names-repo{
+        display:contents;
+        height: auto;
+        }
+} 
